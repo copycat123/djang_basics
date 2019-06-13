@@ -1,0 +1,7 @@
+.vscode/
+*LICENSE.txt
+include/
+lib/
+Scripts/
+tcl/
+
