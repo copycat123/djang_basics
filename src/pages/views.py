@@ -11,8 +11,8 @@ def home_view(request, *args, **kwargs):
     return render(request, "home.html", {})
 
 
-def navbar_view(request, *args, **kwargs):
-    return render(request, "navbar.html", {})
+def contact_view(request, *args, **kwargs):
+    return render(request, "contact.html", {})
 
 
 def share_view(request, *args, **kwargs):
@@ -27,3 +27,7 @@ def share_view(request, *args, **kwargs):
 
 def view_view(request, *args, **kwargs):
     return render(request, "view.html", {})
+
+
+# def navbar_view(request, *args, **kwargs):
+#     return render(request, "navbar.html", {})

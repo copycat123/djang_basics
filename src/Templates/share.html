@@ -1,10 +1,13 @@
-{% extends 'base.html' %} {% block content%}
+{% extends 'base.html' %}
+
+{% block content %}
 <h1>share</h1>
 <p>This is a tempate</p>
 <p>
   {{ my_text }}, {{ my_number }}
   {{ my_list }}
 </p>
+<p>{% lorem %}</p>
 
 <ul>
   <li>Item1</li>
@@ -21,4 +24,4 @@
   {% endif %} {% endfor %}
 </ul>
 
-{% endblock content %}
+{% endblock %}

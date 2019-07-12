@@ -9,7 +9,17 @@
 </head>
 
 <body>
-  {% include 'navbar.html' %} {% block content%} replace me {% endblock %}
+
+  <h1>my nigga</h1>
+  <!--This h1 html code will show in all html files. for e.g in share.html, view.html-->
+  {% include 'navbar.html' %}
+  <!--this will put navbar.html code here-->
+
+  {% block content %}
+  <!--this will put home.html code here-->{% endblock %}
+
+
+
 </body>
 
 </html>
